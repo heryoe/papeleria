@@ -38,7 +38,7 @@
                         top: 240px;
                       right: -100px;
                       width: 92px;
-                     height: 130px;
+                     height: 140px;
            background-color: black;
         transition-property: right, top;
         transition-duration: 1s, 1s;
@@ -176,7 +176,7 @@
                      border: 3px solid blue;
               border-radius: 40px;
                  text-align: center;
-                margin-left: -500px;
+                margin-left: -520px;
                  margin-top: -255px;
         transition-property: margin-left, margin-top;
         transition-duration: 1s, 1s;
