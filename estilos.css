@@ -6,6 +6,8 @@
                    /*------------*/
                    /* Encabezado */
                    /*------------*/
+                .titulo_lap{display: none;}
+                
                     .titulo{
                    position: fixed;
                       width: 100%;
@@ -257,18 +259,31 @@
                            }
 
                      .produ{border-radius: 50px;}
-                           }
-
+                           
                       .mapa{
                       width: 500px;
                      height: 300px;
                            }
-
+                           }
 
 
          @media screen and (min-width: 1100px) /*Lap y Escritorio*/
                            {
 
+                .titulo_lap{
+                    display: block;
+                   position: absolute;
+                      right: 40px;
+                        top: 20px;
+                           }
+
+                        .tl{
+                      color: yellowgreen;
+                  font-size: 20px;
+                margin-left: 20px;
+                           }
+
+ 
                    .panora1{
                       width: 900px;
                      height: 500px;
@@ -287,11 +302,7 @@
             grid-column-gap: 40px;
                            }
 
+                    .marque{animation-duration: 5s;}
+
                        .ws1{margin-left: -2500px;}
-
-      
-
-
-
-
                            }
